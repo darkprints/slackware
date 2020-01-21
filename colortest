@@ -1,7 +1,7 @@
 #!/bin/sh
 
 mkdir /tmp/vt101                                                                                       && \
-cd /tmp/tv101                                                                                          && \
+cd /tmp/vt101                                                                                          && \
 curl https://github.com/darkprints/Slackware/raw/master/linux-vt-setcolors-master.zip -L -o color.zip  && \
 unzip color.zip                                                                                        && \
 rm color.zip
