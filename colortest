@@ -5,3 +5,21 @@ cd /tmp/vt101                                                                   
 curl https://github.com/darkprints/Slackware/raw/master/linux-vt-setcolors-master.zip -L -o color.zip  && \
 unzip color.zip                                                                                        && \
 rm color.zip
+
+cd colors
+make
+cp setcolors /usr/local/bin/
+chmod 755 /usr/local/bin/setcolors 
+
+mkdir /usr/local/bin
+
+ 
+
+edit the /etc/rc.d/        add /usr/local/bin/setcolors 
+
+
+/usr/local/bin  =>  put the (setcolors) there
+/usr/local/share/setcolors => put to the content of the setcolors folder there.
+/etc/rc.d/ => add "/usr/local/bin/setcolors /usr/local/share/setcolors/solarized" to rc.local
+
+make sure to set the setcolors files with #chmod 755 yourfile.txt
