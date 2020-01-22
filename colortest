@@ -14,17 +14,20 @@ chmod 755 /usr/local/bin/setcolors
 cp example-colors /usr/local/share/setcolors
 rm /usr/local/share/setcolors/terminal.sexy
 
+cd /etc/rc.d/
+sed -i -e "\$a/usr/local/bin/setcolors /usr/local/share/setcolors/solarized" rc.local
 
-cp  
-cp /usr/local/share/
-
- 
-
-edit the /etc/rc.d/        add /usr/local/bin/setcolors 
-
-
-/usr/local/bin  =>  put the (setcolors) there
-/usr/local/share/setcolors => put to the content of the setcolors folder there.
-/etc/rc.d/ => add "/usr/local/bin/setcolors /usr/local/share/setcolors/solarized" to rc.local
-
-make sure to set the setcolors files with #chmod 755 yourfile.txt
+#cp  
+#cp /usr/local/share/
+##
+#
+# 
+#
+#edit the /etc/rc.d/        add /usr/local/bin/setcolors 
+#
+#
+#/usr/local/bin  =>  put the (setcolors) there
+#/usr/local/share/setcolors => put to the content of the setcolors folder there.
+#/etc/rc.d/ => add "/usr/local/bin/setcolors /usr/local/share/setcolors/solarized" to rc.local
+#
+#make sure to set the setcolors files with #chmod 755 yourfile.txt
