@@ -12,7 +12,7 @@ make
 cp setcolors /usr/local/bin/
 chmod 755 /usr/local/bin/setcolors 
 mv example-colors /usr/local/share/setcolors
-rm /usr/local/share/setcolors/terminal.sexy
+rm -rf /usr/local/share/setcolors/terminal.sexy
 
 cd /etc/rc.d/
 sed -i -e "\$a/usr/local/bin/setcolors /usr/local/share/setcolors/solarized" rc.local
