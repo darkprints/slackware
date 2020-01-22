@@ -17,6 +17,10 @@ rm -rf /usr/local/share/setcolors/terminal.sexy
 cd /etc/rc.d/
 sed -i -e "\$a/usr/local/bin/setcolors /usr/local/share/setcolors/solarized" rc.local
 
+rm -rf /tmp/darkprints
+
+echo vt101 Installed
+
 #cp  
 #cp /usr/local/share/
 ##
