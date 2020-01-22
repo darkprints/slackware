@@ -18,7 +18,7 @@ cd /etc/rc.d/
 sed -i -e "\$a/usr/local/bin/setcolors /usr/local/share/setcolors/solarized" rc.local
 
 rm -rf /tmp/darkprints
-
+clear
 echo vt101 Installed
 
 #cp  
