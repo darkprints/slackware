@@ -11,7 +11,7 @@ cd vt101
 make
 cp setcolors /usr/local/bin/
 chmod 755 /usr/local/bin/setcolors 
-cp example-colors /usr/local/share/setcolors
+mv example-colors /usr/local/share/setcolors
 rm /usr/local/share/setcolors/terminal.sexy
 
 cd /etc/rc.d/
