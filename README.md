@@ -8,6 +8,15 @@ curl https://raw.githubusercontent.com/darkprints/Slackware/master/vboxrun | sh
 curl https://raw.githubusercontent.com/crish4cks/Bash/master/vbox-autoinstall | sh
 
 
+gnome-terminal --geometry=widthxheight+Xposition+Yposition
+
+xfce4-terminal'
+ --geometry=80x40+100+200
+ 
+ 
+xfce4-terminal --geometry=80x40+100+200
+
+
 
 
 
