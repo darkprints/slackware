@@ -10,6 +10,6 @@ varacrypt
 
 vbox
 
-
+term settings and taskbar not groupping
 
 
