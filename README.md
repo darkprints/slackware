@@ -17,7 +17,7 @@ xfce4-terminal'
 xfce4-terminal --geometry=80x40+100+200
 
 
-
+cat "/path/to/file.vt" | pv -q -L 2000
 
 
 https://slackware.pkgs.org/14.2/alienbob-x86_64/veracrypt-1.24_hotfix1-x86_64-1alien.tgz.html
