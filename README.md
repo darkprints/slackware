@@ -27,3 +27,5 @@ https://slackware.pkgs.org/14.2/alienbob-x86_64/veracrypt-1.24_hotfix1-x86_64-1a
 
     # upgradepkg --install-new veracrypt-1.24_hotfix1-x86_64-1alien.tgz
 
+To change the Theme:
+xfconf-query -c xsettings -p /Net/ThemeName -s Breeze-Dark
