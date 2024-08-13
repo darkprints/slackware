@@ -29,5 +29,10 @@ https://slackware.pkgs.org/14.2/alienbob-x86_64/veracrypt-1.24_hotfix1-x86_64-1a
 
 To change the Theme:
 xfconf-query -c xsettings -p /Net/ThemeName -s Breeze-Dark
+
+
 To change the bg:
 xfconf-query --channel xfce4-desktop --property /backdrop/screen0/monitoreDP-1/workspace0/last-image --set /usr/share/backgrounds/xfce/xfce-blue.jpg
+
+comd to hide icons on desktop - just add to startup script
+xfconf-query -c xfce4-desktop -np '/desktop-icons/style' -t 'int' -s '0'
