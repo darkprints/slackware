@@ -36,3 +36,6 @@ xfconf-query --channel xfce4-desktop --property /backdrop/screen0/monitoreDP-1/w
 
 comd to hide icons on desktop - just add to startup script
 xfconf-query -c xfce4-desktop -np '/desktop-icons/style' -t 'int' -s '0'
+
+remove the pannel
+xfce4-panel -q
