@@ -19,11 +19,7 @@
     <li>
       <a href="#about-the-script">About The Script</a>
       <ul>
-        <li><a href="#list-of-games">List of Games</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Scid vs. PC</a>
+      <a href="#list-of-games">SList of Games</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
