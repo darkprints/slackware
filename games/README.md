@@ -95,34 +95,16 @@ has received strong contribution from Pascal Georges and others.
 
 _Commands to install either the entire list of games or each one separately _
 
-1. install all games `games.sh`
-   ```js
-  ./games.sh
-   ```
-2. install separately `tbd`
-   ```js
-   tbd
-   ```
 
-
-2. Clone the repo
+1. Install all games
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   /games.sh
    ```
-3. Install NPM packages
+2. Install separately 
    ```sh
-   npm install
+   /games.sh
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
-   ```
-   
+ 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
