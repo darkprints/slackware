@@ -129,4 +129,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/tree/main
+* [GitHub Emoji Cheat Sheet](https://github.com/othneildrew/Best-README-Template/blob/main/README.md)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
