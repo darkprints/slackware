@@ -93,16 +93,16 @@ has received strong contribution from Pascal Georges and others.
 
 ### Installation
 
-_Commands to install either the entire list of games or each one separately _
+_Commands to install either the entire list of games or each one separately._
 
 
 1. Install all games
    ```sh
-   /games.sh
+   ./games.sh
    ```
 2. Install separately 
    ```sh
-   /games.sh
+   ./folder/games.sh
    ```
  
 
