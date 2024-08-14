@@ -50,36 +50,44 @@ This script "games.sh" will install the following games I haved in the following
 
 
 
-### Built With
+### Scid vs. PC
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+Scid vs. PC is a usability and bug-fix fork of Scid with some
+new features.  The project is authored by Stevenaaus, and has been
+extensively tested
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+SCID: Shane's Chess Information Database is a powerful Chess Toolkit,
+with which one can create huge chess databases, run engine analysis,
+or play casual games against the computer or online with the Free
+Internet Chess Server. It was originally written by Shane Hudson, and
+has received strong contribution from Pascal Georges and others.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## AisleRiot 
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+AisleRiot (also known as Solitaire or sol) is a collection of card games
+which are easy to play with the aid of a mouse. 
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+The following games are included:
+Peek,  Auld Lang Syne, Fortunes, Seahaven, King Albert, First Law,
+Straight Up, Jumbo, Accordion, Ten Across, Plait, Lady Jane, Gypsy,
+Neighbor, Jamestown, Osmosis, Kings Audience, Glenwood, Gay Gordons,
+Monte Carlo, Kan-sas, Camelot, Fourteen, Scorpion, Isabel, Escalator,
+Agnes, Bristol, Quatorze, Bear River, Gold Mine, Athena, Spiderette,
+Chessboard, Backbone, Yukon, Union Square, Eight Off, Napoleons Tomb,
+Forty Thieves, Streets And Alleys, Maze, Clock, Pileon, Canfield,
+Thirteen, Bakers Game, Triple Peaks, Easthaven, Terrace, Aunt Mary,
+Car-pet, Sir Tommy, Diamond Mine, Yield, Labyrinth, Thieves, Saratoga,
+Cruel, Block Ten, Will O The Wisp, Odessa, Eagle Wing, Treize, Zebra,
+Cover, Elevator, Fortress, Giant, Spider, Gaps, Bakers Dozen, Whitehead,
+Freecell, Helsinki, Spider Three Decks, Scuffle, Poker,
+Klondike Three Decks, Valentine, Royal East, Thumb And Pouch, Klondike,
+Doublets, Template, Golf, Westhaven, Beleaguered Castle, Hopscotch,
+Eliminator, Aunt Mary, Hamilton, Wall.
 
 ### Installation
 
