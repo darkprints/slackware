@@ -129,4 +129,4 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Project Link: [[https://github.com/othneildrew/Best-README-Template/blob/main/README.md](https://github.com/othneildrew/Best-README-Template/blob/main/README.md]([https://github.com/othneildrew/Best-README-Template/blob/main/README.md](https://github.com/othneildrew/Best-README-Template/blob/main/README.md))
+[contributors-url]: https://github.com/othneildrew/Best-README-Template/tree/main
