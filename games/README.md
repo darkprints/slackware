@@ -49,23 +49,7 @@ This script "games.sh" will install the following games I haved in the following
 
 
 
-### Scid vs. PC
-
-Scid vs. PC is a usability and bug-fix fork of Scid with some
-new features.  The project is authored by Stevenaaus, and has been
-extensively tested
-
-SCID: Shane's Chess Information Database is a powerful Chess Toolkit,
-with which one can create huge chess databases, run engine analysis,
-or play casual games against the computer or online with the Free
-Internet Chess Server. It was originally written by Shane Hudson, and
-has received strong contribution from Pascal Georges and others.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- GETTING STARTED -->
+<!-- Game Details-->
 ## AisleRiot 
 
 AisleRiot (also known as Solitaire or sol) is a collection of card games
@@ -87,6 +71,23 @@ Freecell, Helsinki, Spider Three Decks, Scuffle, Poker,
 Klondike Three Decks, Valentine, Royal East, Thumb And Pouch, Klondike,
 Doublets, Template, Golf, Westhaven, Beleaguered Castle, Hopscotch,
 Eliminator, Aunt Mary, Hamilton, Wall.
+
+
+### Scid vs. PC
+
+Scid vs. PC is a usability and bug-fix fork of Scid with some
+new features.  The project is authored by Stevenaaus, and has been
+extensively tested
+
+SCID: Shane's Chess Information Database is a powerful Chess Toolkit,
+with which one can create huge chess databases, run engine analysis,
+or play casual games against the computer or online with the Free
+Internet Chess Server. It was originally written by Shane Hudson, and
+has received strong contribution from Pascal Georges and others.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 ### Installation
 
