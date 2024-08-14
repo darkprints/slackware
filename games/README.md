@@ -104,6 +104,26 @@ _Commands to install either the entire list of games or each one separately _
    tbd
    ```
 
+
+2. Clone the repo
+   ```sh
+   git clone https://github.com/github_username/repo_name.git
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Enter your API in `config.js`
+   ```js
+   const API_KEY = 'ENTER YOUR API';
+   ```
+5. Change git remote url to avoid accidental pushes to base project
+   ```sh
+   git remote set-url origin github_username/repo_name
+   git remote -v # confirm the changes
+   ```
+   
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -111,9 +131,9 @@ _Commands to install either the entire list of games or each one separately _
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-This will download the game source files form my github and save them to /opt/games/
-It will compile the files to /tmp/ then move it to /opt/games/ and then delete the score files.
-Install will be automatic and a backup will be saved at /opt/games/
+1. This will download the game source files form my github and save them to /opt/games/
+2. It will compile the files to /tmp/ then move it to /opt/games/ and then delete the score files.
+3. Install will be automatic and a backup will be saved at /opt/games/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
