@@ -39,3 +39,9 @@ xfconf-query -c xfce4-desktop -np '/desktop-icons/style' -t 'int' -s '0'
 
 remove the pannel
 xfce4-panel -q
+
+
+how to splt files for github:
+# go1.22.5.src.tar.gz
+# tar cvzf - go1.22.5.src.tar.gz | split --bytes=20MB - go1.22.5.tar.gz.
+# cat go1.22.5.tar.gz.* | tar xzvf -
