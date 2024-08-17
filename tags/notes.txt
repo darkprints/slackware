@@ -1,0 +1,68 @@
+# notes for tagfile
+# https://www.youtube.com/watch?v=8Uqu85_m2ww
+
+
+mkdir dvd
+mount -o loop,ro -t iso9660 slackware64-15.iso ./dvd
+ls dvd
+find ./dvd -type f | grep tagfile
+find ./dvd -type f | grep tagfile | sed "s/\/tagfile//g"
+find ./dvd -type f | grep tagfile | sed "s/\/tagfile//g" | sed "s/^\.\/dvd\//.\/wrk\//"
+find ./dvd -type f | grep tagfile | sed "s/\/tagfile//g" | sed "s/^\.\/dvd\//.\/wrk\//" | sed "s/^/mkdir -p /" | bash
+find ./dvd -type f | grep tagfile | sed "s/^\.\/dvd\///g" | sed "s/^.*/cp .\/dev\/& .\/wrk\/&/"
+
+find ./dvd -type f | grep tagfile | sed "s/^\.\/dvd\///g" | sed "s/^.*/cp .\/dvd\/& .\/wrk\/&/" | ksh
+
+umount dvd
+rmdir dvd
+
+# notes on def of key words
+# ADD means install it
+# SKP means do not install
+# use nothing else so it is automated
+
+# changes all to ADD
+cd wrk
+cd slackware64/a ; mv tagfile tmpfile ; cat tmpfile | sed "s/:...$/:ADD/g" > tagfile ; rm tmpfile ; cd ../..
+
+cd slackware64/d ; mv tagfile tmpfile ; cat tmpfile | sed "s/:...$/:ADD/g" > tagfile ; rm tmpfile ; cd ../..
+
+cd slackware64/e ; mv tagfile tmpfile ; cat tmpfile | sed "s/:...$/:ADD/g" > tagfile ; rm tmpfile ; cd ../..
+
+cd slackware64/f ; mv tagfile tmpfile ; cat tmpfile | sed "s/:...$/:ADD/g" > tagfile ; rm tmpfile ; cd ../..
+
+cd slackware64/k ; mv tagfile tmpfile ; cat tmpfile | sed "s/:...$/:ADD/g" > tagfile ; rm tmpfile ; cd ../..
+
+cd slackware64/kde ; mv tagfile tmpfile ; cat tmpfile | sed "s/:...$/:ADD/g" > tagfile ; rm tmpfile ; cd ../..
+
+cd slackware64/l ; mv tagfile tmpfile ; cat tmpfile | sed "s/:...$/:ADD/g" > tagfile ; rm tmpfile ; cd ../..
+
+cd slackware64/n ; mv tagfile tmpfile ; cat tmpfile | sed "s/:...$/:ADD/g" > tagfile ; rm tmpfile ; cd ../..
+
+cd slackware64/t ; mv tagfile tmpfile ; cat tmpfile | sed "s/:...$/:ADD/g" > tagfile ; rm tmpfile ; cd ../..
+
+cd slackware64/tcl ; mv tagfile tmpfile ; cat tmpfile | sed "s/:...$/:ADD/g" > tagfile ; rm tmpfile ; cd ../..
+
+cd slackware64/x ; mv tagfile tmpfile ; cat tmpfile | sed "s/:...$/:ADD/g" > tagfile ; rm tmpfile ; cd ../..
+
+cd slackware64/xap ; mv tagfile tmpfile ; cat tmpfile | sed "s/:...$/:ADD/g" > tagfile ; rm tmpfile ; cd ../..
+
+cd slackware64/xfce ; mv tagfile tmpfile ; cat tmpfile | sed "s/:...$/:ADD/g" > tagfile ; rm tmpfile ; cd ../..
+
+cd slackware64/y ; mv tagfile tmpfile ; cat tmpfile | sed "s/:...$/:ADD/g" > tagfile ; rm tmpfile ; cd ../..
+
+vim ./slackware64/kde
+:1,$s/:ADD$/:SKP
+
+#make the filder tree and files into a iso
+mkisofs -o ./slacktags.iso -l -r -allow-leading-dots -allow-lowercase -allow-multidot -J -joliet-long -V slacktag ./wrk
+
+
+#slacktag added and mounted
+
+mkdir tags
+mount -t iso9660 -o ro dev/sr1 /tags
+
+#in the install use tag path:
+/tags/slackware64
+
