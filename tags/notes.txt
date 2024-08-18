@@ -66,3 +66,22 @@ mount -t iso9660 -o ro dev/sr1 /tags
 #in the install use tag path:
 /tags/slackware64
 
+## what default windows manager for x?
+
+kde
+xfce
+fluxbox
+blackbox
+wmaker
+fvwm2
+twm
+mwm motif mw
+
+
+# vim cmd to replace ":ADD" with ":SKP"
+:1,$s/:ADD$/:SKP/g
+
+#find a replace manualy
+/:ADD  n  or N  to go forward and backwards
+go to the found line item and re[place
+go to top and then type "/"  then 2cw
