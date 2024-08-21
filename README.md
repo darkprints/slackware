@@ -45,3 +45,14 @@ how to splt files for github:
 # go1.22.5.src.tar.gz
 # tar cvzf - go1.22.5.src.tar.gz | split --bytes=20MB - go1.22.5.tar.gz.
 # cat go1.22.5.tar.gz.* | tar xzvf -
+
+
+
+
+You need to start NetworkManager, it is part of a full install.
+
+Go to /etc/rc.d/ and look for a file called rc.networkmanager.
+
+As root, chmod +x rc.netowrkmanager. 
+
+then either boot, or run /etc/rc.d/rc.netwrokmanager start.
