@@ -57,6 +57,10 @@ As root, chmod +x rc.netowrkmanager.
 
 then either boot, or run /etc/rc.d/rc.netwrokmanager start.
 
+
+
+https://www.youtube.com/watch?v=m5lwT5ssGpA
+
 You need to start NetworkManager, it is part of a full install.
 
 Go to /etc/rc.d/ andYou need to start NetworkManager, it is part of a full install.
