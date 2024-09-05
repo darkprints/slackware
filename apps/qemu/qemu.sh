@@ -43,5 +43,5 @@ rm -r "/opt/apps_backup/qemu"
 rm "/opt/apps_backup/qemu.tar.gz"
 rm "/opt/apps_backup/qemu-9.0.2.tar.xz"
 
-mv "/tmp/makeself-2.5.0-noarch-1_SBo.tgz" "/opt/apps_backup/makeself-2.5.0-noarch-1_SBo.tgz"
-upgradepkg --install-new "/opt/apps_backup/makeself-2.5.0-noarch-1_SBo.tgz"
+mv "/tmp/qemu-9.0.2-x86_64-1_SBo.tgz" "/opt/apps_backup/qemu-9.0.2-x86_64-1_SBo.tgz"
+upgradepkg --install-new "/opt/apps_backup/qemu-9.0.2-x86_64-1_SBo.tgz"
